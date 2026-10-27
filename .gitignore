@@ -3,6 +3,8 @@ export/
 *.dmp
 *.log
 *.csv
+# 字段映射表是交付文档，不随 *.csv 一起忽略
+!config/field_mapping.csv
 
 # 日志
 cutover_*.log
