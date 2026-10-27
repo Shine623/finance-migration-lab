@@ -1,0 +1,25 @@
+# 导出数据（体积大，含业务数据）
+export/
+*.dmp
+*.log
+*.csv
+
+# 日志
+cutover_*.log
+rowcount_before_*.txt
+
+# 配置备份
+*.bak.*
+config_local.*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# 系统
+.DS_Store
+Thumbs.db
